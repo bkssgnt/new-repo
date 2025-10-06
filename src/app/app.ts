@@ -14,6 +14,7 @@ export class App {
   name: string = '';
   gender: any;
   defaultHolder: string = 'My name is: ';
+  person: any;
   constructor(){
 
   }
@@ -24,5 +25,10 @@ export class App {
   ngOnInit(){
     this.age = 5;
     this.name = 'Bienn';
+    this.person = {
+      age: 28,
+      name: 'Kurt',
+      gender: 'Male'
+    }
   }
 }
